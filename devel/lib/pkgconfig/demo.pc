@@ -1,0 +1,8 @@
+prefix=/home/micros/catkin_new/devel
+
+Name: demo
+Description: Description of demo
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/micros/catkin_new/devel/lib 
+Requires: 

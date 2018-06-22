@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/vggnet_test.dir/src/vggnet_test.cpp.o  -o /home/micros/catkin_new/devel/lib/demo/vggnet_test  -L/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-bin/tensorflow -rdynamic 

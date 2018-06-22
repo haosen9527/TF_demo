@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Project" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\tools\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\;CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\;CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\;CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\;CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\;CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\;CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\;CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\;CMake Files\..\build\;CMake Files\..\build\catkin\;CMake Files\..\build\catkin\catkin_generated\;CMake Files\..\build\catkin\catkin_generated\version\;CMake Files\..\build\catkin_generated\;CMake Files\..\build\catkin_generated\installspace\;CMake Files\..\build\demo\;CMake Files\..\build\demo\catkin_generated\;CMake Files\demo\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/micros/catkin_new/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/micros/catkin_new/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="clean_test_results">
+         <Option working_dir="/home/micros/catkin_new/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean_test_results" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="run_tests">
+         <Option working_dir="/home/micros/catkin_new/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 run_tests" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="download_extra_data">
+         <Option working_dir="/home/micros/catkin_new/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 download_extra_data" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tests">
+         <Option working_dir="/home/micros/catkin_new/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 tests" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/micros/catkin_new/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="doxygen">
+         <Option working_dir="/home/micros/catkin_new/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 doxygen" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/micros/catkin_new/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/micros/catkin_new/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/micros/catkin_new/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/micros/catkin_new/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test">
+         <Option working_dir="/home/micros/catkin_new/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="network">
+         <Option output="/home/micros/catkin_new/devel/lib/demo/network" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/micros/catkin_new/devel/lib/demo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;demo&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/micros/tensorflow" />
+            <Add directory="/home/micros/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 network" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="network/fast">
+         <Option output="/home/micros/catkin_new/devel/lib/demo/network" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/micros/catkin_new/devel/lib/demo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;demo&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/micros/tensorflow" />
+            <Add directory="/home/micros/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 network/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="std_msgs_generate_messages_py">
+         <Option working_dir="/home/micros/catkin_new/build/demo" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_py" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="graph_logging">
+         <Option output="/home/micros/catkin_new/devel/lib/demo/graph_logging" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/micros/catkin_new/devel/lib/demo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;demo&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/micros/tensorflow" />
+            <Add directory="/home/micros/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 graph_logging" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="graph_logging/fast">
+         <Option output="/home/micros/catkin_new/devel/lib/demo/graph_logging" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/micros/catkin_new/devel/lib/demo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;demo&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/micros/tensorflow" />
+            <Add directory="/home/micros/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 graph_logging/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="roscpp_generate_messages_py">
+         <Option working_dir="/home/micros/catkin_new/build/demo" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_py" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rosgraph_msgs_generate_messages_eus">
+         <Option working_dir="/home/micros/catkin_new/build/demo" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_eus" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="demo_test">
+         <Option output="/home/micros/catkin_new/devel/lib/demo/demo_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/micros/catkin_new/devel/lib/demo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;demo&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/micros/tensorflow" />
+            <Add directory="/home/micros/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 demo_test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="demo_test/fast">
+         <Option output="/home/micros/catkin_new/devel/lib/demo/demo_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/micros/catkin_new/devel/lib/demo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;demo&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/micros/tensorflow" />
+            <Add directory="/home/micros/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 demo_test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="crate_graph">
+         <Option output="/home/micros/catkin_new/devel/lib/demo/crate_graph" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/micros/catkin_new/devel/lib/demo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;demo&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/micros/tensorflow" />
+            <Add directory="/home/micros/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 crate_graph" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="crate_graph/fast">
+         <Option output="/home/micros/catkin_new/devel/lib/demo/crate_graph" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/micros/catkin_new/devel/lib/demo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;demo&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/micros/tensorflow" />
+            <Add directory="/home/micros/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 crate_graph/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rosgraph_msgs_generate_messages_nodejs">
+         <Option working_dir="/home/micros/catkin_new/build/demo" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_nodejs" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rosgraph_msgs_generate_messages_cpp">
+         <Option working_dir="/home/micros/catkin_new/build/demo" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_cpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="std_msgs_generate_messages_cpp">
+         <Option working_dir="/home/micros/catkin_new/build/demo" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_cpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Record_demo">
+         <Option output="/home/micros/catkin_new/devel/lib/demo/Record_demo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/micros/catkin_new/devel/lib/demo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;demo&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/micros/tensorflow" />
+            <Add directory="/home/micros/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 Record_demo" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Record_demo/fast">
+         <Option output="/home/micros/catkin_new/devel/lib/demo/Record_demo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/micros/catkin_new/devel/lib/demo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;demo&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/micros/tensorflow" />
+            <Add directory="/home/micros/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 Record_demo/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="roscpp_generate_messages_cpp">
+         <Option working_dir="/home/micros/catkin_new/build/demo" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_cpp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mnist_cxx">
+         <Option output="/home/micros/catkin_new/devel/lib/demo/mnist_cxx" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/micros/catkin_new/devel/lib/demo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;demo&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/micros/tensorflow" />
+            <Add directory="/home/micros/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 mnist_cxx" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mnist_cxx/fast">
+         <Option output="/home/micros/catkin_new/devel/lib/demo/mnist_cxx" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/micros/catkin_new/devel/lib/demo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;demo&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/micros/tensorflow" />
+            <Add directory="/home/micros/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 mnist_cxx/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="roscpp_generate_messages_eus">
+         <Option working_dir="/home/micros/catkin_new/build/demo" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_eus" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rosgraph_msgs_generate_messages_py">
+         <Option working_dir="/home/micros/catkin_new/build/demo" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_py" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rosgraph_msgs_generate_messages_lisp">
+         <Option working_dir="/home/micros/catkin_new/build/demo" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_lisp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="roscpp_generate_messages_nodejs">
+         <Option working_dir="/home/micros/catkin_new/build/demo" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_nodejs" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tensor_image">
+         <Option output="/home/micros/catkin_new/devel/lib/demo/tensor_image" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/micros/catkin_new/devel/lib/demo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;demo&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/micros/tensorflow" />
+            <Add directory="/home/micros/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 tensor_image" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tensor_image/fast">
+         <Option output="/home/micros/catkin_new/devel/lib/demo/tensor_image" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/micros/catkin_new/devel/lib/demo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;demo&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/micros/tensorflow" />
+            <Add directory="/home/micros/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 tensor_image/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="std_msgs_generate_messages_nodejs">
+         <Option working_dir="/home/micros/catkin_new/build/demo" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_nodejs" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="roscpp_generate_messages_lisp">
+         <Option working_dir="/home/micros/catkin_new/build/demo" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_lisp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="std_msgs_generate_messages_eus">
+         <Option working_dir="/home/micros/catkin_new/build/demo" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_eus" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="std_msgs_generate_messages_lisp">
+         <Option working_dir="/home/micros/catkin_new/build/demo" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_lisp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="line_test">
+         <Option output="/home/micros/catkin_new/devel/lib/demo/line_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/micros/catkin_new/devel/lib/demo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;demo&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/micros/tensorflow" />
+            <Add directory="/home/micros/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 line_test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="line_test/fast">
+         <Option output="/home/micros/catkin_new/devel/lib/demo/line_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/micros/catkin_new/devel/lib/demo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;demo&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/micros/tensorflow" />
+            <Add directory="/home/micros/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/bazel-genfiles" />
+            <Add directory="/home/micros/tensorflow_cxx/tensorflow_source/tensorflow/tensorflow/contrib/makefile/gen/protobuf/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 line_test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/micros/catkin_new/build/demo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/micros/catkin_new/src/demo/src/Record_demo.cpp">
+         <Option target="Record_demo"/>
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/demo/src/crate_graph.cpp">
+         <Option target="crate_graph"/>
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/demo/src/demo.cpp">
+         <Option target="demo_test"/>
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/demo/src/graph_logging.cpp">
+         <Option target="graph_logging"/>
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/demo/src/line_test.cpp">
+         <Option target="line_test"/>
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/demo/src/mnist_cxx.cpp">
+         <Option target="mnist_cxx"/>
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/demo/src/network.cpp">
+         <Option target="network"/>
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/demo/src/tensor_image.cpp">
+         <Option target="tensor_image"/>
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/package.xml">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/all.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/assert.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/atomic_configure_file.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkin_add_env_hooks.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkin_destinations.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkin_download.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkin_generate_environment.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkin_install_python.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkin_libraries.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkin_metapackage.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkin_package_xml.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkin_workspace.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/debug_message.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/em_expand.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/python.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/empy.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/find_program_required.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/legacy.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/list_append_deduplicate.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/list_append_unique.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/list_insert_in_workspace_order.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/safe_execute_process.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/stamp.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/string_starts_with.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkin_python_setup.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/interrogate_setup_dot_py.py">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/platform/lsb.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/platform/ubuntu.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/platform/windows.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/test/tests.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/test/catkin_download_test_data.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/test/gtest.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/test/nosetests.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/tools/doxygen.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\tools\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/tools/libraries.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\tools\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/tools/rt.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\tools\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/_setup_util.py.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/env.sh.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/setup.bash.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/setup.sh.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/setup.zsh.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/rosinstall.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/_setup_util.py.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/env.sh.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/setup.bash.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/setup.sh.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/setup.zsh.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/rosinstall.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/generate_cached_setup.py.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/env.sh.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/order_packages.context.py.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/em/order_packages.cmake.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/message_runtime/cmake/message_runtimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/rostime/cmake/rostimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsole-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/rosconsole/cmake/rosconsole-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../../../../opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../build/catkin/catkin_generated/version/package.cmake">
+          <Option virtualFolder="CMake Files\..\build\catkin\catkin_generated\version\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../build/catkin_generated/order_packages.cmake">
+          <Option virtualFolder="CMake Files\..\build\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../build/catkin_generated/installspace/_setup_util.py">
+          <Option virtualFolder="CMake Files\..\build\catkin_generated\installspace\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../build/demo/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\demo\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../build/demo/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\demo\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../build/demo/catkin_generated/package.cmake">
+          <Option virtualFolder="CMake Files\..\build\demo\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../build/demo/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\demo\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../build/demo/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\demo\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/../build/demo/catkin_generated/package.cmake">
+          <Option virtualFolder="CMake Files\..\build\demo\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/demo/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\demo\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/demo/package.xml">
+          <Option virtualFolder="CMake Files\demo\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/demo/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\demo\" />
+      </Unit>
+      <Unit filename="/home/micros/catkin_new/src/demo/package.xml">
+          <Option virtualFolder="CMake Files\demo\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

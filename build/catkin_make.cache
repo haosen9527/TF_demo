@@ -1,0 +1,2 @@
+demo
+-G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/micros/catkin_new/devel -DCMAKE_INSTALL_PREFIX=/home/micros/catkin_new/install
